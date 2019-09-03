@@ -13,12 +13,15 @@ import UserGreeting from './components/UserGreeting';
 import NameList from './components/NameList';
 import PersonList from './components/PersonList';
 import Stylesheet from './components/Stylesheet';
+import Inline from './components/Inline';
 
 function App() {
   return (
     <div className="App">
 
-      <Stylesheet primary={true} />
+      <Inline />
+      {/* <Stylesheet primary={true} /> */}
+
       {/* <PersonList /> */}
       {/* <NameList /> */}
 

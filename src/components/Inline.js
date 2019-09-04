@@ -4,6 +4,7 @@ const headingStyle = {
     fontSize: '72px',
     color: 'blue'
 }
+
 function Inline() {
     return (
         <div>

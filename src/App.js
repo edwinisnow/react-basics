@@ -40,7 +40,7 @@ function App() {
   return (
     <div className="App">
 
-      <User name={(isLoggedIn) => isLoggedIn ? 'User' : 'Guest'} />
+      <User render={(isLoggedIn) => isLoggedIn ? 'User' : 'Guest'} />
       <HoverCounterTwo />
       <ClickCounterTwo />
 
